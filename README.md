@@ -105,7 +105,6 @@ You can get the application running in just a few minutes using either Python lo
 
 ---
 ## **Folder Structure**
-Of course. Here is the folder structure for the FakeDetector project in the format you requested.
 
 ```
 FakeDetector/
