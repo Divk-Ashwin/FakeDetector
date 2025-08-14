@@ -44,8 +44,8 @@ You can get the application running in just a few minutes using either Python lo
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-directory>
+    git clone https://github.com/Divk-Ashwin/FakeDetector
+    cd https://github.com/Divk-Ashwin/FakeDetector
     ```
 
 2.  **Fetch large data files:**
@@ -107,30 +107,61 @@ You can get the application running in just a few minutes using either Python lo
 ## **Folder Structure**
 
 ```
-FakeDetector/
-├── .gitattributes                # Defines attributes for Git LFS
-├── app.py                        # Main Flask application file
-├── Dockerfile                    # Instructions for building the Docker container
-├── LICENSE                       # Project license file
-├── model.pkl                     # Pre-trained classifier model
-├── README.md                     # Project documentation
-├── requirements.txt              # Python dependencies
-├── train.csv                     # Training data (via Git LFS)
-├── vectorizer.pkl                # Pre-trained text vectorizer
+## 🌳 Full Project Tree
+
+.
+├── .gitattributes
+├── app.py
+├── Dockerfile
+├── model.pkl
+├── README.md
+├── requirements.txt
+├── structure.txt
+├── train.csv
+├── upload.csv
+├── vectorizer.pkl
 ├── model/
-│   └── fake_news_detector_prepare_model.ipynb # Jupyter notebook for model training
+│   └── fake_news_detector_prepare_model.ipynb
 ├── static/
 │   ├── css/
-│   │   └── style.css             # CSS stylesheets for the UI
+│   │   ├── font-awesome.min.css
+│   │   ├── freelancer.css
+│   │   ├── freelancer.min.css
+│   │   ├── main.css
+│   │   ├── new2.jpg
+│   │   ├── style.css
+│   │   └── styles.css
+│   ├── fonts/
+│   │   ├── fontawesome-webfont.eot
+│   │   ├── fontawesome-webfont.svg
+│   │   ├── fontawesome-webfont.ttf
+│   │   ├── fontawesome-webfont.woff
+│   │   ├── fontawesome-webfont.woff2
+│   │   └── FontAwesome.otf
+│   ├── images/
+│   │   ├── banner.jpg
+│   │   ├── ... (and other images/videos)
+│   │   └── video2.mp4
 │   ├── js/
-│   │   └── script.js             # JavaScript for frontend interactivity
-│   └── images/
-│       └── logo.png              # UI images
+│   │   ├── contact_me.js
+│   │   ├── ... (and other scripts)
+│   │   └── util.js
+│   └── vendor/
+│       ├── bootstrap/
+│       ├── fontawesome-free/
+│       ├── jquery/
+│       └── jquery-easing/
 ├── templates/
-│   ├── index.html                # Main page template
-│   └── result.html               # Page to display the classification result
+│   ├── chart.html
+│   ├── first.html
+│   ├── future.html
+│   ├── index.html
+│   ├── login.html
+│   ├── preview.html
+│   └── upload.html
 └── test_data/
-    └── sample_texts.txt          # Example news texts for testing
+    ├── examples_fake_news.txt
+    └── examples_real_news.txt
 ```
 ## **Future Roadmap**
  
